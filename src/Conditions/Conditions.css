@@ -1,0 +1,50 @@
+.imgCar{
+  
+   margin: 10px;
+   left: 50px;
+  z-index: 2;
+ 
+   
+}
+.boxCar{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.textCar{
+    /* background: cornflowerblue; */
+    width: 800px;
+    height: 600px;
+    right: 50px;
+    margin: 50px;
+}
+.ol,
+.span{
+    color: #BBB;
+    font-family: sans-serif;
+}
+.span{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.782);
+}
+.ol{
+    font-size: 15px;
+}
+.firsttext{
+    color:tan;
+    font-family: sans-serif;
+    filter: drop-shadow(0 0 5px rgb(223, 181, 126));
+
+}
+.p{
+    font-family: sans-serif;
+    color: #BBB;
+    font-size: 19px;
+    padding: 20px;
+}
+.Car{
+    position:absolute;
+    filter: blur(2.7rem);
+}

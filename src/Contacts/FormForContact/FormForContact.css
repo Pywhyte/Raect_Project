@@ -1,0 +1,53 @@
+.FormForShow{
+    display: flex;
+    position:absolute;
+    width: 400px;
+    height: 450px;
+    background: rgba(102, 81, 54, 0.631);
+    left: 35%;
+    top: -100px;
+    border: rgba(0, 0, 0, 0.713) solid 5px;
+    z-index: 1;
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.734);
+}
+.inputEmail,
+.inputText{
+    border: black solid 2px;
+    /* margin: 10px; */
+    height: 30px;
+    background: rgb(255, 255, 255);
+}
+.pmail{
+    position: relative;
+    left: 200px;
+    top: -80px;
+}
+.inputTextArea{
+    border: black 2px solid;
+    min-width: 300px;
+    max-width: 300px;
+    padding: 20px;
+    /* margin: 25px; */
+    min-height: 200px;
+    max-height: 200px;
+}
+.inputButt{
+    border: black solid 3px;
+    left: 125px;
+    position: relative;
+    height: 50px;
+    width: 150px;
+    background: rgba(0, 0, 0, 0.645);
+    color: tan;
+    bottom: 60px;
+}
+.inputButt:hover{
+    transition: 0.7s;
+    background: black;
+}
+.parea{
+    position: relative;
+    top: -60px;
+    left: 20px;
+}

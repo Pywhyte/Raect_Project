@@ -1,0 +1,22 @@
+.click {
+    /* margin: 5px; */
+    padding: 5px;
+    background: none;
+    color: #BBB;
+    font-size: 25px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    margin: 10px;
+   
+    
+}
+
+.click:hover{
+    color: tan;
+}
+.boxClick{
+    display: flex;
+    margin-top: 2px;
+}

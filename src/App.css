@@ -1,0 +1,9 @@
+
+body{
+    margin: 0;
+    font-size:  20px;
+    font-family: fantasy;
+    /* background: content-box linear-gradient(90deg, rgba(2, 7, 9, 0.953), rgb(48, 78, 90)); */
+    background: #212529;
+    
+}

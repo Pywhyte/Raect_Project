@@ -1,0 +1,45 @@
+.links{
+   background: none;
+   
+   width: 100px;
+   height: 50px;
+   font-size: 20px;
+   font-family: sans-serif;
+   color: #BBB;
+   margin: 10px;
+   
+}
+
+
+.link2{
+    background: none;
+   width: 100px;
+   height: 50px;
+   font-size: 20px;
+   font-family: sans-serif;
+   color: #BBB;
+   /* position: absolute; */
+   
+   
+   margin: 10px;
+}
+.links,
+.link2{
+    border: #BBB solid 2px;
+}
+
+
+.boxforlinks{
+    display: flex;
+    
+}
+.links:hover{
+    background: rgba(4, 3, 3, 0.323);
+    border: black 2px solid;
+    transition: 0.7s;
+}
+.link2:hover{
+    background: rgba(141, 27, 27, 0.7);
+    border: red 2px solid;
+    transition: 0.7s;
+}

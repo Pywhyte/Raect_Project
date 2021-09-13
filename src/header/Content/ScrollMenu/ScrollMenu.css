@@ -1,0 +1,46 @@
+.scrollmenu{
+    display:flex;
+    
+    align-items:center;
+    overflow: auto;
+    width: auto;
+    min-height: 600px;
+    flex-direction:row;
+    position: relative;
+    
+    
+    
+}
+.cars{
+    background-color: rgba(100, 148, 237, 0.076);
+    min-width: 600px;
+    margin: 20px;
+    height: 400px;
+    color: skyblue;
+    /* padding: 5px; */
+    border: black 2px solid;
+    z-index: 2;
+   
+}
+.cars:hover{
+    transform:scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    position: relative;
+}
+
+.scrollmenu::-webkit-scrollbar{
+   background: rgba(5, 2, 2, 0.33);
+    height: 15px;
+    width: 5px;
+    position: relative;
+}
+.scrollmenu::-webkit-scrollbar-track{
+    background: rgba(51, 23, 90, 0);
+   border: rgba(0, 0, 0, 0) 5px transparent;
+   background-clip: content-box;
+}
+.scrollmenu::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.172);
+    border:1px solid tan;
+}

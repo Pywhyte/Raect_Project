@@ -1,0 +1,20 @@
+.imgInfo{
+ position:absolute;
+ top: 33px;
+ margin: 20px;
+ 
+
+}
+.textInfo{
+    position:absolute;  
+    left: 900px;
+    top: 30px;
+    height: 600px;
+    width: 900px;
+    color: #BBB;
+    font-size: 17.5px;
+    font-family: sans-serif;
+}
+.h1info{
+    color: tan;
+}

@@ -1,0 +1,35 @@
+.carName{
+position:relative;
+top: -445px;
+left: 15px;
+color: tan;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+width: auto;
+}
+.carPrice{
+position: relative;
+top: -80px;
+left: 30px;
+}
+.carAge{
+position: relative;
+top: -105px;
+left: 280px;
+}
+.carText{
+position: relative;
+top: -140px;
+left: 400px;
+
+
+}
+.carAge,
+.carPrice,
+.carText{
+    display: flex;
+    font-family: sans-serif;
+    width: 250px;
+    font-size: 25px;
+    opacity: 1;
+}
